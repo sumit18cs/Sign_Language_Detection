@@ -147,6 +147,7 @@ def make_dataset(split_file, split, root, mode, num_classes):
         
         # Get label
         label = int(data[vid]['action'][0])
+        print(label)
         
         if len(vid) == 5:
             ## We have tuples where we know the ID of the video,
